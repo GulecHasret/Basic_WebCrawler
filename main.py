@@ -1,11 +1,9 @@
 import os
 import sys
-from urllib2 import urlopen
 import urllib2
 import csv
 import time
 from bs4 import BeautifulSoup
-import os
 
 
 quote_page = ['https://www.bloomberg.com/quote/USDCAD:CUR','https://www.bloomberg.com/quote/EURUSD:CUR','https://www.bloomberg.com/quote/GBPUSD:CUR','https://www.bloomberg.com/quote/EURCHF:CUR','https://www.bloomberg.com/quote/USDHKD:CUR']
